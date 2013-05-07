@@ -1,5 +1,5 @@
 name    'jacksoncage-killall'
-version '0.1.0'
+version '0.1.1'
 source 'git://github.com/jacksoncage/puppet-killall'
 author 'Love Nyberg'
 license 'Apache Version 2.0'
