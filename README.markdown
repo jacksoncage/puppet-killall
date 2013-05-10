@@ -13,6 +13,18 @@ Module Description
 
 The killall module allows Puppet to install killall application.
 
+Install
+-------
+
+Run this code on your puppet node using the Puppet Module Tool:
+
+	puppet module install jacksoncage/killall
+
+Clone from github:
+
+	cd /etc/puppet/modules/
+	git clone git://github.com/jacksoncage/puppet-killall.git
+
 Setup
 -----
 
