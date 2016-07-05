@@ -50,18 +50,18 @@ class killall($ensure='running',
   }
 
   case $::osfamily {
-    Debian: {
+    'Debian': {
       $supported  = true
       $pkg_name   = [ 'psmisc' ]
       $svc_name   = 'psmisc'
     }
-    RedHat: {
+    'RedHat': {
       $supported  = true
       $pkg_name   = [ 'killall' ]
       $svc_name   = 'killall'
     }
 
-    Linux: {
+    'Linux': {
       if ($::operatingsystem == 'Archlinux') {
         $supported = true
         $pkg_name = ['killall']
